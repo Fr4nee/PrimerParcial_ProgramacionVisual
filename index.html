@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Primer Parcial Programacion Visual Istea</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" id="btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+            <div class="right-side">
+                <img src="images/gb.svg" width="25px">
+                <span><a href="#">English <i class="fa fa-angle-down" aria-hidden="true"></i></a></span>
+                <span><a href="#">Log Out <i class="fa fa-sign-out" aria-hidden="true"></i></a></span>
+            </div>
+        </header>
+
+        <aside class="aside">
+            <div class="aside_header">               
+                <img src="images/logo-admin.png" width="30px" height="30px">
+                <h3 class="aside_Tit">Administration</h3>
+            </div>
+            
+            <div class="aside_content">
+                <div class="user">
+                    <img id="user_img" src="images/img.jpg" width="50px" height="50px">
+                    <p>Franco</p>
+                </div>
+
+                <div class="list-group">
+                    <p class="lg-menu">Menu</p>
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Customer Accounts')">
+                        <i class="fa fa-user fa-fw A" aria-hidden="true"></i> Customer Accounts
+                    </a>
+
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Access Media')">
+                        <i class="fa fa-book fa-fw B" aria-hidden="true"></i> Access Media
+                    </a>
+
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Statistics')">
+                        <i class="fa fa-pencil fa-fw C" aria-hidden="true"></i> Statistics
+                    </a>
+
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Devices')">
+                        <i class="fa fa-desktop fa-fw D" aria-hidden="true"></i> Devices
+                    </a>
+
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Tariffication')">
+                        <i class="fa fa-exchange fa-fw E" aria-hidden="true"></i> Tariffication
+                    </a>
+
+                    <a class="list-group-item" href="#" onclick="CambiarContenido('Agents Accounts')">
+                        <i class="fa fa-users fa-fw F" aria-hidden="true"></i> Agents Accounts
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <main id="main">
+            <div class="container-title">
+                <h1 class="tit">Welcome</h1>
+            </div>
+            <div class="main-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi voluptates dolorum ratione doloremque ipsum velit eos consequatur, aliquam perspiciatis, rerum corrupti quae minima. Quos pariatur a sapiente necessitatibus numquam!</p>
+                <div class="cont">
+                    <img id="main-img1" src="images/welcome1.png" width="190px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, omnis eos soluta illo consequuntur, tempore vel quis eius dignissimos dolore provident. Libero odit minus quasi id nostrum illo incidunt praesentium nemo, eius officia, at omnis, nobis possimus. Iste consequuntur, modi, corrupti mollitia magni, dolor veritatis ducimus laborum ea aliquid ipsa animi aperiam. Minus debitis illo similique ipsum. Ipsam impedit eos esse perferendis ipsa modi laboriosam, minus reiciendis soluta enim dolore?</p>
+                </div>
+                <div class="cont">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nulla labore aliquid aliquam, non et ut officiis neque possimus delectus optio, numquam quae soluta nam tenetur quidem. Velit suscipit magni possimus, officia aspernatur quos iste quibusdam error saepe, sunt nisi inventore quis repellat autem sequi illo harum aliquam beatae culpa accusamus exercitationem consequatur cumque eveniet. Nisi labore deleniti voluptates corrupti doloremque, rerum commodi excepturi laboriosam, necessitatibus earum eos cumque dolorem.</p>
+                    <img id="main-img2" src="images/welcome2.png" width="190px">
+                </div>
+
+            </div>
+        </main>
+        
+        <footer>
+            <p>Primer Parcial - Primer cuatrimestre - Programación Visual - Franco Damián Romano - 2021 </p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
